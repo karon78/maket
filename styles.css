@@ -1,0 +1,25 @@
+@import "./assets/css/reset.css";
+
+
+
+*{
+    box-sizing: border-box;
+}
+:root{
+    --color1: #ffffff;
+    --color2: #898888;
+    --color3: #e4e4e4;
+    --color4: #1d1d1d;
+    --color5: #fefefe;
+    --color6: #989696;
+    --color7: #000000;
+    --color8: #999999;
+    --color9: #b7b7b7;
+    --color10: #b3b3b3;
+    --color11: #383838;
+    --color12: #464646;
+    --color13: #1d1e1f;
+    --color14: #d0d0d0;
+    --color15: #323232;
+    --color16: #181818;
+}
