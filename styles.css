@@ -9,18 +9,25 @@
     box-sizing: border-box;
 }
 :root{
-    --colorWhite: #ffffff;/*background light section, h2 second dark section,
-                      heading iconsCard, button second dark section,*/
-    --colorBlack: #000000; /*button and border header, text button second dark section*/
+    --colorWhite: #ffffff;/*background light section,
+                       h2 second dark section,
+                       heading iconsCard,
+                       button second dark section,*/
+    --colorBlack: #000000; /*button and border header,
+                       text button second dark section*/
     --colorDS1: #1d1d1d; /*background first dark section*/
     --colorDS2: #181818; /*background second dark section*/
-    --colorHeadingLS: #1d1e1f; /*color h1 header, h2 light section*/
+    --colorHeadingLS: #1d1e1f; /*color h1 header,
+                       h2 light section*/
     --colorNav: #989696; /*color nav*/
     --colorNavHover: #010101; /*color nav hover*/
-    --colorTextLS: #898888; /*color text header, text light section, plasholder form*/
+    --colorTextLS: #898888; /*color text header,
+                       text light section,
+                       plasholder form*/
     --colorTextDS1: #b7b7b7; /*color text in first dark section*/
     --colorTextDS2: #777777; /*color text second dark section*/
-    --colorHeadindDS1: #fefefe; /*color h3 (years) in first dark section, button form*/
+    --colorHeadindDS1: #fefefe; /*color h3 (years) in first dark section,
+                       button form*/
     --colorFormBorder: #999999; /*color border form*/
     --colorFormBtnFon: #161616; /*fon button form*/
 
@@ -34,6 +41,9 @@
 
     --colorPoint: #d0d0d0; /*points in header*/
     --colorTextBottomCite: #3b3b3b; /*text bottom cite*/
+
+    font-size: 12px;
+    font-family: "HelveticaNeueLTPro-Lt",sans-serif;
 
 
 }
