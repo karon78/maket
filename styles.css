@@ -1,4 +1,7 @@
 @import "./assets/css/reset.css";
+@import "./assets/css/userCard.css";
+@import "./assets/css/font-face.css";
+
 
 
 
@@ -6,20 +9,31 @@
     box-sizing: border-box;
 }
 :root{
-    --color1: #ffffff;
-    --color2: #898888;
-    --color3: #e4e4e4;
-    --color4: #1d1d1d;
-    --color5: #fefefe;
-    --color6: #989696;
-    --color7: #000000;
-    --color8: #999999;
-    --color9: #b7b7b7;
-    --color10: #b3b3b3;
-    --color11: #383838;
-    --color12: #464646;
-    --color13: #1d1e1f;
-    --color14: #d0d0d0;
-    --color15: #323232;
-    --color16: #181818;
+    --colorWhite: #ffffff;/*background light section, h2 second dark section,
+                      heading iconsCard, button second dark section,*/
+    --colorBlack: #000000; /*button and border header, text button second dark section*/
+    --colorDS1: #1d1d1d; /*background first dark section*/
+    --colorDS2: #181818; /*background second dark section*/
+    --colorHeadingLS: #1d1e1f; /*color h1 header, h2 light section*/
+    --colorNav: #989696; /*color nav*/
+    --colorNavHover: #010101; /*color nav hover*/
+    --colorTextLS: #898888; /*color text header, text light section, plasholder form*/
+    --colorTextDS1: #b7b7b7; /*color text in first dark section*/
+    --colorTextDS2: #777777; /*color text second dark section*/
+    --colorHeadindDS1: #fefefe; /*color h3 (years) in first dark section, button form*/
+    --colorFormBorder: #999999; /*color border form*/
+    --colorFormBtnFon: #161616; /*fon button form*/
+
+    --colorUserInfo: #b3b3b3; /*color userCard text info*/
+    --colorUserName: #464646; /*color userCard text name*/
+    --colorUserLink: #e4e4e4; /*color userCard icons */
+
+    --colorIconsCardText: #383838; /*color text iconsCard */
+
+    --colorIconContact: #323232; /*color icons contact*/
+
+    --colorPoint: #d0d0d0; /*points in header*/
+    --colorTextBottomCite: #3b3b3b; /*text bottom cite*/
+
+
 }
