@@ -1,6 +1,9 @@
 @import "./assets/css/reset.css";
 @import "./assets/css/userCard.css";
 @import "./assets/css/font-face.css";
+@import "./assets/css/heading.css";
+@import "./assets/css/section.css";
+@import "./assets/css/iconCard.css";
 
 
 
@@ -44,6 +47,6 @@
 
     font-size: 12px;
     font-family: "HelveticaNeueLTPro-Lt",sans-serif;
-
+    font-weight: 400;
 
 }

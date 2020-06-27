@@ -11,16 +11,44 @@
     clip: rect(1px, 1px, 1px, 1px);
 }
 
-.titleHeader {
-
+.titleHeader,.titleLS, .titleDS, .year{
+    text-align: center;
+    font-size: 2.8rem;
+    line-height: 26px;
+}
+.titleHeader{
     font-size: 3.6rem;
-    font-weight: 400;
     line-height: 17px;
+}
+.titleLS, .titleHeader{
     color: var(--colorHeadingLS);
 }
-.titleLS{
-    font-family: "HelveticaNeueLTPro-Lt",sans-serif;
-    font-size: 2.8rem;
-    font-weight: 400;
+.titleDS{
+    color: var(--colorWhite);
+}
+.year{
+    font-size: 4rem;
+    font-family: "HelveticaNeueLTPro-Roman", sans-serif;
+    color: var(--colorHeadindDS1);
+}
+.textLS, .textDS2{
+    text-align: center;
+    font-family: "MerriweatherLight",sans-serif;
+    font-size: 1.35rem;
     line-height: 26px;
+    font-style: italic;
+}
+.textLS{
+    color: var(--colorTextLS);
+}
+
+.textDS2{
+    color: var(--colorTextDS2);
+}
+.textDS1{
+    color: var(--colorTextDS1);
+    font-family: "Montserrat",sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 22px;
 }
